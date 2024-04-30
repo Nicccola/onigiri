@@ -9,11 +9,18 @@
 </head>
 <body>
     <div class="click">
-        <svg width="400" height="200">
+        <svg class="text-one" width="400" height="200">
             <path id="curve" d="M 50,160 Q 200,1 350,160" fill="none" stroke="transparent"></path>
           
             <text font-family="Viga" font-size="29" fill="var(--text-color)">
-              <textPath xlink:href="#curve">CLICK TO EAT THE ONIGIRI</textPath>
+              <textPath xlink:href="#curve" text-anchor="middle" startOffset="50%">CLICK TO EAT</textPath>
+            </text>
+          </svg>
+          <svg class="text-two" width="400" height="200">
+            <path id="curve" d="M 50,160 Q 200,1 350,160" fill="none" stroke="transparent"></path>
+          
+            <text font-family="Viga" font-size="29" fill="var(--text-color)">
+              <textPath xlink:href="#curve" text-anchor="middle" startOffset="50%">THE ONIGIRI</textPath>
             </text>
           </svg>
      </div>

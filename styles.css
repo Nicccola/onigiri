@@ -48,6 +48,14 @@ body {
     text-shadow: 2px 2px 3px var(--shadow-color);
 }
 
+.text-one {
+
+}
+
+.text-two {
+    margin-top: -10rem;
+}
+
 .hide-click {
     opacity: 0; 
     z-index: 0; 
